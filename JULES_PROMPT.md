@@ -277,6 +277,23 @@ The 80-line production log already built for RootCause (the auth service JWT tim
 - [ ] CI passes on Python 3.10, 3.11, 3.12
 - [ ] ruff passes
 
+
+## The Developer Toolkit Ecosystem
+
+This tool is part of a suite of open-source AI-powered developer tools built by the same team:
+
+| Tool | What it does |
+|---|---|
+| **[RootCause](https://github.com/UA9-TA/rootcause)** | Auto-diagnose failing tests — AI root cause + fix |
+| **[ErrorMentor](https://github.com/UA9-TA/errormentor)** | Auto-diagnose production errors — correlate logs with git commits |
+| **[TestGap](https://github.com/UA9-TA/testgap)** | Find untested code paths after every commit |
+| **[HalluCheck](https://github.com/UA9-TA/hallucheck)** | Catch AI hallucinations in code diffs |
+| **[IntentDiff](https://github.com/UA9-TA/intentdiff)** | Understand what a diff *actually* does semantically |
+| **[DepSecure](https://github.com/UA9-TA/depsecure)** | Block vulnerable dependencies at commit time |
+| **[ArchGuard](https://github.com/UA9-TA/archguard)** | Enforce microservice architecture rules across repos |
+| **[SpendSentry](https://github.com/UA9-TA/spendsentry)** | Monitor cloud spend in real time — alert before costs spiral |
+| **[ContextKit](https://github.com/UA9-TA/contextkit)** | Build minimal AI context bundles — 88% fewer tokens |
+
 ## Repo Details
 - GitHub: https://github.com/UA9-TA/errormentor
 - Local path: /Users/chitra/Documents/Projects/errormentor
