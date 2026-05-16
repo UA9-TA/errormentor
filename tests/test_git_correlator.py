@@ -1,6 +1,7 @@
-import pytest
 from datetime import datetime, timezone
-from errormentor.git_correlator import GitCorrelator, CommitInfo
+
+from errormentor.git_correlator import GitCorrelator
+
 
 def test_correlate(mocker):
     correlator = GitCorrelator()

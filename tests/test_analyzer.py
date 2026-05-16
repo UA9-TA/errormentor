@@ -1,8 +1,9 @@
-import pytest
 from datetime import datetime, timezone
+
 from errormentor.analyzer import Analyzer
-from errormentor.spike_detector import SpikeReport
 from errormentor.git_correlator import CommitInfo
+from errormentor.spike_detector import SpikeReport
+
 
 def test_build_prompt():
     analyzer = Analyzer(api_key="test_key")

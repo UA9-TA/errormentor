@@ -3,8 +3,8 @@ from typing import Any
 
 from anthropic import Anthropic
 
-from .spike_detector import SpikeReport
 from .git_correlator import CommitInfo
+from .spike_detector import SpikeReport
 
 
 class Analyzer:

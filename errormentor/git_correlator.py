@@ -29,7 +29,7 @@ class GitCorrelator:
              return ""
 
     def get_recent_commits(self, limit: int = 20) -> list[dict]:
-        output = self._run_cmd(['git', 'log', f'--format=%H|%ai|%s|%ae', f'-n{limit}'])
+        output = self._run_cmd(['git', 'log', '--format=%H|%ai|%s|%ae', f'-n{limit}'])
         if not output:
             return []
 

@@ -1,6 +1,7 @@
 import os
 import subprocess
 
+
 class ContextBuilder:
     def __init__(self, context_lines: int = 30):
         self.context_lines = context_lines
@@ -59,7 +60,7 @@ class ContextBuilder:
             except subprocess.CalledProcessError:
                 context.append(f"Could not get git history for {f}")
             except FileNotFoundError:
-                 context.append(f"git command not found")
+                 context.append("git command not found")
                  break
 
         return '\n\n'.join(context)

@@ -1,6 +1,8 @@
-from datetime import datetime, timezone, timedelta
-from errormentor.spike_detector import SpikeDetector
+from datetime import datetime, timedelta, timezone
+
 from errormentor.log_parser import ErrorEvent
+from errormentor.spike_detector import SpikeDetector
+
 
 def test_detect_spike():
     detector = SpikeDetector(window_size_minutes=1, baseline_minutes=30, threshold=3.0)
