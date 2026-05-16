@@ -1,6 +1,6 @@
-from datetime import datetime, timezone
 
 from errormentor.log_parser import LogParser
+
 
 def test_parse_json():
     parser = LogParser()

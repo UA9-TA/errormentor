@@ -1,6 +1,7 @@
 import os
 import subprocess
 
+
 class Patcher:
     def apply_diff(self, diff_text: str) -> bool:
         """Applies a unified diff."""

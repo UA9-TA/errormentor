@@ -1,16 +1,16 @@
-import sys
-import typer
 from typing import Optional
+
+import typer
 from rich.prompt import Confirm
 
-from .log_parser import LogParser
-from .spike_detector import SpikeDetector
-from .git_correlator import GitCorrelator
-from .context_builder import ContextBuilder
 from .analyzer import Analyzer
-from .patcher import Patcher
-from .display import Display, console
 from .config import Config
+from .context_builder import ContextBuilder
+from .display import Display, console
+from .git_correlator import GitCorrelator
+from .log_parser import LogParser
+from .patcher import Patcher
+from .spike_detector import SpikeDetector
 
 app = typer.Typer(help="Auto-diagnose production errors by correlating logs with recent commits and AI analysis")
 

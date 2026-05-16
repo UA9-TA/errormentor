@@ -1,10 +1,9 @@
-from rich.console import Console
-from rich.panel import Panel
-from rich.text import Text
-from rich.table import Table
 from typing import Any
-from .spike_detector import SpikeReport
+
+from rich.console import Console
+
 from .git_correlator import CommitInfo
+from .spike_detector import SpikeReport
 
 console = Console()
 

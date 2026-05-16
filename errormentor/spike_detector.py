@@ -1,7 +1,7 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from typing import Optional
-from collections import defaultdict
 
 from .log_parser import ErrorEvent
 
@@ -67,7 +67,7 @@ class SpikeDetector:
             current_rate = buckets[current_minute]
 
             # Calculate baseline
-            baseline_start = current_minute - timedelta(minutes=self.baseline_minutes)
+            current_minute - timedelta(minutes=self.baseline_minutes)
             baseline_events = 0
             baseline_window_count = 0
 
